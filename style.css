@@ -55,7 +55,7 @@ footer p {
     margin-bottom: 1rem;
 } 
 
-footer a {
+a {
     color: var(--call-to-action);  
     padding: .5rem;
     border-radius: 1rem;
@@ -79,7 +79,8 @@ footer a {
 .error {
 	color: white;
 	padding: 5px;
-	margin: 5px 0 15px 0;
+    margin: 5px 0 15px 0;
+    
 }
 
 .success {
@@ -91,7 +92,7 @@ footer a {
 }
 
 @media only screen and (max-width: 31em) {
-    footer a {
+    a {
         color: rgba(255, 255, 255, .9); 
-    }
+    } 
 }
