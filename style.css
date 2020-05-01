@@ -1,0 +1,86 @@
+:root {
+    --call-to-action: rgba(0, 0, 0, .8);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background: linear-gradient(to right, #8e2de2, #4a00e0); 
+    color: rgba(255, 255, 255, .9); 
+}
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem auto; 
+    
+}
+
+input[type='submit'] {
+    color: inherit;
+    background: var(--call-to-action);
+    transition: all .2s; 
+    
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus
+ {
+    background: transparent; 
+}
+
+::placeholder {
+    font-style: italic; 
+    font-family: inherit; 
+}
+
+footer {
+    padding: 1rem; 
+    margin: 0 auto; 
+}
+p {
+    text-align: center; 
+}
+footer p {
+    text-align: center; 
+    margin-bottom: 1rem;
+} 
+
+footer a {
+    color: var(--call-to-action); 
+    cursor: pointer; 
+     
+}
+
+.fa-heart {
+    color: red; 
+}
+
+.fa-hand-peace {
+    color: yellow;
+}
+
+
+.success,
+.error {
+	color: white;
+	padding: 5px;
+	margin: 5px 0 15px 0;
+}
+
+.success {
+	background: green;
+}
+
+.error {
+	background: red;
+}
